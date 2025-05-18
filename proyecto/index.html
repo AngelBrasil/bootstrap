@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Bootstrap</title>
+</head>
+<body>
+    <div class="container pt-3">
+      <h1>Universidad de Innovaci&oacute;n Tecnolog&iacute;ca</h1>
+      <hr>
+      <section class="header">
+        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Nosotros
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Mision</a></li>
+                    <li><a class="dropdown-item" href="#">Vision</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Acerca de</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                <button class="btn btn-outline-info" type="submit">Search</button>
+              </form>
+            </div>
+            <button type="button" class="btn btn-primary">
+              Notifications <span class="badge badge-light">4</span>
+            </button>
+          </div>
+        </nav>
+      </section>
+      <br>
+      <section class="top-cursos">
+        <fieldset>
+          <legend class="slide__cursos">Top de cursos</legend>
+          <section>
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <section>
+                      <img src="./img/java.jpg" class="d-block w-100" alt="...">
+                    </section>
+                    <section>
+                      <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                          <h5 class="card-title">Java</h5>
+                          <p class="card-text">Java nació en junio de 1991 como un proyecto llamado "Oak" bajo el desarrollo de un pequeño equipo de ingenieros que trabajaban para Sun Microsystems.</p>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div class="carousel-item">
+                    <section>
+                      <img src="./img/python.png" class="d-block w-100" alt="...">
+                    </section>
+                    <section>
+                      <div class="card" style="width: 108rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Python</h5>
+                          <p class="card-text">Fue creado por Guido van Rossum a finales de la década de 1980 y principios de 1990 en el Centro de Investigación en Matemáticas e Informática de los Países Bajos</p>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div class="carousel-item">
+                    <section>
+                      <img src="./img/javascript.jpg" class="d-block w-100" alt="...">
+                    </section>
+                    <section>
+                      <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                          <h5 class="card-title">Javascript</h5>
+                          <p class="card-text">JavaScript es uno de los lenguajes más populares en el mundo y durante la década del 2010 al 2020, fue el número uno sobre la tierra y se apoderó de casi todas las industrias del desarrollo de software. Todo se hacía con JavaScript e incluso, llegó a hablarse de la fatiga JavaScript.</p>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div class="carousel-item">
+                    <section>
+                      <img src="./img/net.jpg" class="d-block w-100" alt="...">
+                    </section>
+                    <section>
+                      <div class="card" style="width: 108rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">.Net</h5>
+                          <p class="card-text">.NET es un framework de Microsoft que hace un énfasis en la transparencia de redes, con independencia de plataforma de hardware y que permite un rápido desarrollo de aplicaciones</p>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+ 
+            <div class="d-grid gap-2">
+              <button class="btn btn-secondary" type="button">Solicitar informaci&oacute;n</button>
+            </div>
+          </section>
+          <br>
+          <section>
+            <fieldset>
+              <legend class="collapsed__dir">Nuestras sedes</legend>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Lindavista
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Eje 6 Nte, La Escalera, Gustavo A. Madero, 07320 Ciudad de M&eacute;xico, CDMX</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Coyoac&aacute;n
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Eje 9 Sur , La Concepci&oacute;n, Coyoac&aacute;n, 04020 Ciudad de M&eacute;xico, CDMX</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      N&aacute;poles
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">C. Pensilvania , N&aacute;poles, Benito Ju&aacute;rez, 03810 Ciudad de M&eacute;xico, CDMX</div>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+          </section>
+        </fieldset>
+      </section>
+    </div>
+</body>
+</html>

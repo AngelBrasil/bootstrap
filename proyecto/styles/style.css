@@ -1,0 +1,25 @@
+body{
+  background-color: #fff8e7;
+}
+
+h1{
+  text-align: center;
+}
+
+hr{
+  color: rgb(184, 14, 48);
+}
+
+.slide__cursos{
+    background-color: rgb(246, 164, 11);
+    color: #fff;
+    padding: 3px 6px;
+    text-align: center;
+  }
+
+  .collapsed__dir{
+    background-color: rgb(16, 198, 76);
+    color: #fff;
+    padding: 3px 6px;
+    text-align: center;
+  }
